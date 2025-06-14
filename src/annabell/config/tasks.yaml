@@ -1,0 +1,18 @@
+write_horror_script:
+  description: >
+    Write a 2-minute horror short film script titled 'Anna Bell'. 
+    The story begins with a calm and joyful relationship between Anna, a cat, and her owner. 
+    Anna wears a bell that never rings—unless she becomes possessed. As the story progresses, 
+    the bell begins to ring, revealing something sinister. Build suspense and end with a disturbing twist.
+  expected_output: >
+    A full-length short horror film script ready for video generation.
+  agent: story_writer
+
+# Not working.
+generate_video_task:
+  description: >
+    Use the script of 'Anna Bell' to generate a short video using the HeyGen API. 
+    The video should reflect the creepy atmosphere of the script and last about 2 minutes.
+  expected_output: >
+    A video file named 'annabell_video.mp4'.
+  agent: heygen_video_agent
